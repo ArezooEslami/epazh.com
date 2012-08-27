@@ -15,6 +15,30 @@ div.home header {
 	margin: 10px 0 0 0;
 }
 
+menu.top{
+	outline: 1px dashed black;
+}
+
+menu.top li{
+	margin-right: 25px;
+	margin-top: 12px;
+	float: left;
+}
+menu.top ul{
+	padding-left: 20px;
+
+}
+menu.top a {
+	color       	: white;
+	display     	: block;
+	font-family 	: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font-size   	: 15px;
+	text-transform  : capitalize;
+	text-decoration : none;
+}
+menu.top a:hover{
+	color:      black;
+}
 div.home section.slider{
 	min-height: 400px;
 	border: 1px dashed black;
