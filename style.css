@@ -189,7 +189,6 @@ div.home section.content{
 div.home section.content div.homepage-article{
 	float: left;
 	width: 480px;
-	border: 1px dashed black;
 }
 
 div.home section.content div.homepage-article div.left{
@@ -227,7 +226,6 @@ div.home section.content div.homepage-article div.right article{
 div.home section.content div.homepage-news{
 	float: right;
 	width: 460px;
-	border: 1px dashed black;
 }
 
 /*----------------------------------------Footer----------------------------------------*/
