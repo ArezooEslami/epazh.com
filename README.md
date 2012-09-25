@@ -1,7 +1,6 @@
 ##1Design
 
-The website for the web design
-Final project of CIW webdesign
+Final project of CIW Web Design
 -----------------------
 ###Contributing
 
