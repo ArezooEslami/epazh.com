@@ -21,7 +21,7 @@ Final project of CIW Web Design
 
 ###Our Team
 * [**Ali Mihandoost**](http://github.com/AliMD) Teacher & Technical Manager
-* [**Amin Kiani**](https://github.com/aminkiani) Project Manager / Developer
+* [**Amin Kiani**](https://github.com/aminkiani) Designer / Developer
 * [**Hamed Razmara**](https://github.com/hamedrazmara) Designer / Developer
 
 
