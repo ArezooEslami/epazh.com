@@ -1,44 +1,55 @@
+
 body{
 	background: url(images/header/orange.jpg) no-repeat;
 	background-size: 100%;
-}
-
-div.home{
 	width: 950px;
 	margin: 0 auto;
-
 }
 
-div.home header {
-	height: 100px;
+.cover{*zoom:1;}
+.cover:before,.cover:after{content:" ";display:table}
+.cover:after{clear:both}
+
+/*----------------------------------------Header----------------------------------------*/
+
+header{
 	border: 1px dashed black;
 	margin: 10px 0 0 0;
 }
 
-menu.top{
-	outline: 1px dashed black;
-}
-
-menu.top li{
-	margin-right: 25px;
-	margin-top: 12px;
+header h1.logo{
 	float: left;
+	margin: 10px 0 10px 40px;
 }
-menu.top ul{
-	padding-left: 20px;
+
+header menu.top{
+	float: right;
+	margin: 30px 100px 0 0;
 
 }
-menu.top a {
-	color       	: white;
-	display     	: block;
-	font-family 	: tahoma, Verdana, sans-serif;
-	font-size   	: 15px;
-	text-transform  : capitalize;
-	text-decoration : none;
+
+header menu.top li{
+	list-style-type: none;
+	float: left;
+	padding: 0 0 0 30px;
 }
-menu.top a:hover{
-	color:      black;
+
+header menu.top a{
+	padding: 2px 10px 2px 10px;
+	font-family: Tahoma;
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+	display: block;
 }
+
+header menu.top a:hover{
+	background: #fff;
+	border-radius: 15px;
+}
+
+/*----------------------------------------Home Page----------------------------------------*/
+
 div.home section.slider{
 	min-height: 400px;
 	border: 1px dashed black;
@@ -53,10 +64,13 @@ div.home section.content{
 
 }
 
-div.home footer{
+/*----------------------------------------Footer----------------------------------------*/
+
+	footer{
 	height: 100px;
 	border: 1px dashed black;
 	margin: 10px 0 0 0;
 }
+
 
 
