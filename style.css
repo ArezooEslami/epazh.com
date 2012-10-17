@@ -3,10 +3,32 @@
 .cover:before,.cover:after{content:" ";display:table}
 .cover:after{clear:both}
 
+h1{
+	font-family: Tahoma;
+	font-size: 20px;
+	color: #333300;
+}
+
+h2{
+	font-family: Tahoma;
+	font-size: 18px;
+	color: #333300;
+}
+h3{
+	font-family: Tahoma;
+	font-size: 16px;
+	color: #333300;
+}
+
+p{
+	font-family: Tahoma;
+	font-size: 14px;
+	color: #663300;
+}
+
 /*----------------------------------------Header----------------------------------------*/
 
 header{
-	border: 1px dashed black;
 	margin: 10px 0 0 0;
 }
 
@@ -67,18 +89,6 @@ div.home section.slider div.title{
 	margin: 100px 0 0 100px;
 }
 
-div.home section.slider div.title h1{
-	font-family: Tahoma;
-	font-size: 20px;
-	color: #333300;
-}
-
-div.home section.slider div.title p{
-	font-family: Tahoma;
-	font-size: 16px;
-	color: #663300;
-}
-
 div.home section.slider div.title div.nav a{
 	font-family: Tahoma;
 	font-size: 14px;
@@ -93,14 +103,12 @@ div.home section.slider div.title div.nav a:hover{
 
 div.home section.slider div.title div.nav{
 	height: 19px;
-	background: url(images/slider/nav.png) no-repeat;
-	background-position: 0 0;
+	background: url(images/slider/nav.png) 0 0 no-repeat;
 }
 
 div.home section.slider div.title div.nav:hover{
 	height: 19px;
-	background: url(images/slider/nav.png) no-repeat;
-	background-position: 0 -19px;
+	background: url(images/slider/nav.png) 0 -19px no-repeat;
 }
 
 /*----------------------------------------Home page / Link----------------------------------------*/
@@ -117,7 +125,52 @@ div.home section.content{
 	height: 400px;
 	border: 1px dashed black;
 	margin: 10px 0 0 0;
+}
 
+div.home section.content div.homepage-article{
+	float: left;
+	width: 470px;
+	border: 1px dashed black;
+}
+
+div.home section.content div.homepage-article div.left{
+	float: left;
+	width: 230px;
+}
+
+div.home section.content div.homepage-article div.left div.image{
+	float: left;
+	width: 74px;
+	height: 83px;
+	background: url(images/homepage/set-1.png) 0 -302px no-repeat;
+}
+
+div.home section.content div.homepage-article div.left article{
+	margin: 0 0 0 90px;
+}
+
+div.home section.content div.homepage-article div.right{
+	float: right;
+	width: 230px;
+}
+
+div.home section.content div.homepage-article div.right div.image{
+	float: left;
+	width: 74px;
+	height: 83px;
+	background: url(images/homepage/set-1.png) -74px -302px no-repeat;
+}
+
+div.home section.content div.homepage-article div.right article{
+	margin: 0 0 0 90px;
+}
+
+
+
+div.home section.content div.homepage-news{
+	float: right;
+	width: 470px;
+	border: 1px dashed black;
 }
 
 /*----------------------------------------Footer----------------------------------------*/
