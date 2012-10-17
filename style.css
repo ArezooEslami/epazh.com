@@ -166,7 +166,10 @@ div.home section.slider section.link div.link-4:hover{
 	background: url('images/homepage/set-1.png') -738px -136px no-repeat;
 }
 
-div.home section.slider section.link h2{
+div.home section.slider section.link a{
+	font-family: Tahoma;
+	font-size: 18px;
+	text-decoration: none;
 	padding: 0 0 0 100px;
 	color: #fff;
 }
