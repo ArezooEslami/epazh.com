@@ -231,6 +231,11 @@ div.home section.content div.homepage-news{
 	float: right;
 	width: 460px;
 }
+/*----------------------------------------Home page----------------------------------------*/
+
+body.portfolio{
+	background: url('images/header/portfolio-bg.jpg') repeat-x;
+}
 
 /*----------------------------------------Footer----------------------------------------*/
 
