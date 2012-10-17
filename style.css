@@ -87,6 +87,10 @@ div.home section.slider div.title div.nav a{
 	text-decoration: none;
 }
 
+div.home section.slider div.title div.nav a:hover{
+	color: #000;
+}
+
 div.home section.slider div.title div.nav{
 	height: 19px;
 	background: url(images/slider/nav.png) no-repeat;
