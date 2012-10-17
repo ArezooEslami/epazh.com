@@ -26,6 +26,11 @@ p{
 	color: #663300;
 }
 
+div.line{
+	width: 100%;
+	border-top: 1px solid #663300;
+}
+
 /*----------------------------------------Header----------------------------------------*/
 
 header{
@@ -109,8 +114,6 @@ div.home section.slider div.title div.nav:hover{
 	height: 19px;
 	background: url('images/slider/nav.png') 0 -19px no-repeat;
 }
-
-/*----------------------------------------Home page / Link----------------------------------------*/
 
 div.home section.slider section.link{
 	position: absolute;
@@ -230,9 +233,10 @@ div.home section.content div.homepage-news{
 /*----------------------------------------Footer----------------------------------------*/
 
 footer{
+	width: 950px;
 	height: 100px;
 	border: 1px dashed black;
-	margin: 10px 0 0 0;
+	margin: 10px auto;
 }
 
 
