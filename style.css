@@ -1,7 +1,7 @@
 
-.cover{*zoom:1;}
-.cover:before,.cover:after{content:" ";display:table}
-.cover:after{clear:both}
+
+
+/*----------------------------------------Content----------------------------------------*/
 
 h1{
 	font-family: Tahoma;
@@ -30,6 +30,10 @@ div.line{
 	width: 100%;
 	border-top: 1px solid #663300;
 }
+
+.cover{*zoom:1;}
+.cover:before,.cover:after{content:" ";display:table}
+.cover:after{clear:both}
 
 /*----------------------------------------Header----------------------------------------*/
 
@@ -232,7 +236,6 @@ div.home section.content div.homepage-news{
 
 footer{
 	width: 950px;
-	height: 100px;
 	margin: 10px auto;
 }
 
