@@ -1,11 +1,4 @@
 
-body{
-	background: url(images/header/orange.jpg) no-repeat;
-	background-size: 100%;
-	width: 950px;
-	margin: 0 auto;
-}
-
 .cover{*zoom:1;}
 .cover:before,.cover:after{content:" ";display:table}
 .cover:after{clear:both}
@@ -48,6 +41,14 @@ header menu.top a:hover{
 	border-radius: 15px;
 }
 
+/*----------------------------------------Home page----------------------------------------*/
+
+body.homepage{
+	background: url(images/header/orange.jpg) repeat-x;
+	width: 950px;
+	margin: 0 auto;
+}
+
 /*----------------------------------------Home page / Slider----------------------------------------*/
 
 div.home section.slider{
@@ -78,11 +79,24 @@ div.home section.slider div.title p{
 	color: #663300;
 }
 
-div.home section.slider div.title div > a{
+div.home section.slider div.title div.nav a{
 	font-family: Tahoma;
 	font-size: 14px;
 	color: #fff;
+	padding-left: 30px;
 	text-decoration: none;
+}
+
+div.home section.slider div.title div.nav{
+	height: 19px;
+	background: url(images/slider/nav.png) no-repeat;
+	background-position: 0 0;
+}
+
+div.home section.slider div.title div.nav:hover{
+	height: 19px;
+	background: url(images/slider/nav.png) no-repeat;
+	background-position: 0 -19px;
 }
 
 /*----------------------------------------Home page / Link----------------------------------------*/
