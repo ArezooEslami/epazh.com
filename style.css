@@ -29,7 +29,8 @@ p{
 /*----------------------------------------Header----------------------------------------*/
 
 header{
-	margin: 10px 0 0 0;
+	width: 950px;
+	margin: 0 auto;
 }
 
 header h1.logo{
@@ -66,17 +67,15 @@ header menu.top a:hover{
 /*----------------------------------------Home page----------------------------------------*/
 
 body.homepage{
-	background: url(images/header/orange.jpg) repeat-x;
-	width: 950px;
-	margin: 0 auto;
+	background: url('images/header/orange.jpg') repeat-x;
 }
 
 /*----------------------------------------Home page / Slider----------------------------------------*/
 
 div.home section.slider{
-	min-height: 400px;
-	border: 1px dashed black;
-	margin: 10px 0 0 0;
+	width: 950px;
+	margin: 0 auto 160px auto;
+
 }
 
 div.home section.slider div.banner{
@@ -85,8 +84,8 @@ div.home section.slider div.banner{
 
 div.home section.slider div.title{
 	width: 300px;
-	height: 400px;
-	margin: 100px 0 0 100px;
+	height: 360px;
+	padding: 100px 0 0 100px;
 }
 
 div.home section.slider div.title div.nav a{
@@ -103,33 +102,80 @@ div.home section.slider div.title div.nav a:hover{
 
 div.home section.slider div.title div.nav{
 	height: 19px;
-	background: url(images/slider/nav.png) 0 0 no-repeat;
+	background: url('images/slider/nav.png') 0 0 no-repeat;
 }
 
 div.home section.slider div.title div.nav:hover{
 	height: 19px;
-	background: url(images/slider/nav.png) 0 -19px no-repeat;
+	background: url('images/slider/nav.png') 0 -19px no-repeat;
 }
 
 /*----------------------------------------Home page / Link----------------------------------------*/
 
-div.home section.link{
-	min-height: 400px;
-	border: 1px dashed black;
-	margin: 10px 0 0 0;
+div.home section.slider section.link{
+	position: absolute;
+	width: 974px;
+	margin: 10px auto;
 }
 
+div.home section.slider section.link div.link-1{
+	float: left;
+	width: 246px;
+	height: 136px;
+	background: url('images/homepage/set-1.png') 0 0 no-repeat;
+}
+
+div.home section.slider section.link div.link-1:hover{
+	margin: 2px 0 0 0;
+	background: url('images/homepage/set-1.png') 0 -136px no-repeat;
+}
+
+div.home section.slider section.link div.link-2{
+	float: left;
+	width: 246px;
+	height: 136px;
+	background: url('images/homepage/set-1.png') -246px 0 no-repeat;
+}
+
+div.home section.slider section.link div.link-2:hover{
+	margin: 2px 0 0 0;
+	background: url('images/homepage/set-1.png') -246px -136px no-repeat;
+}
+
+div.home section.slider section.link div.link-3{
+	float:left;
+	width: 246px;
+	height: 136px;
+	background: url('images/homepage/set-1.png') -492px 0 no-repeat;
+}
+
+div.home section.slider section.link div.link-3:hover{
+	margin: 2px 0 0 0;
+	background: url('images/homepage/set-1.png') -492px -136px no-repeat;
+}
+
+div.home section.slider section.link div.link-4{
+	float: right;
+	width: 236px;
+	height: 136px;
+	background: url('images/homepage/set-1.png') -738px 0 no-repeat;
+}
+
+div.home section.slider section.link div.link-4:hover{
+	margin:2px 0 0 0;
+	background: url('images/homepage/set-1.png') -738px -136px no-repeat;
+}
 /*----------------------------------------Home page / Content----------------------------------------*/
 
 div.home section.content{
-	height: 400px;
-	border: 1px dashed black;
-	margin: 10px 0 0 0;
+	width: 950px;
+	margin: 10px auto;
 }
+
 
 div.home section.content div.homepage-article{
 	float: left;
-	width: 470px;
+	width: 480px;
 	border: 1px dashed black;
 }
 
@@ -142,7 +188,7 @@ div.home section.content div.homepage-article div.left div.image{
 	float: left;
 	width: 74px;
 	height: 83px;
-	background: url(images/homepage/set-1.png) 0 -302px no-repeat;
+	background: url('images/homepage/set-1.png') 0 -302px no-repeat;
 }
 
 div.home section.content div.homepage-article div.left article{
@@ -158,18 +204,16 @@ div.home section.content div.homepage-article div.right div.image{
 	float: left;
 	width: 74px;
 	height: 83px;
-	background: url(images/homepage/set-1.png) -74px -302px no-repeat;
+	background: url('images/homepage/set-1.png') -74px -302px no-repeat;
 }
 
 div.home section.content div.homepage-article div.right article{
 	margin: 0 0 0 90px;
 }
 
-
-
 div.home section.content div.homepage-news{
 	float: right;
-	width: 470px;
+	width: 460px;
 	border: 1px dashed black;
 }
 
