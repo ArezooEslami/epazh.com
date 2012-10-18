@@ -20,6 +20,12 @@ h3{
 	color: #333300;
 }
 
+span{
+	font-family: Tahoma;
+	font-size: 14px;
+	color: #333300;
+}
+
 p{
 	font-family: Tahoma;
 	font-size: 14px;
@@ -34,6 +40,8 @@ div.line{
 .cover{*zoom:1;}
 .cover:before,.cover:after{content:" ";display:table}
 .cover:after{clear:both}
+
+.last{ margin-right: 0;}
 
 /*----------------------------------------Header----------------------------------------*/
 
@@ -239,7 +247,6 @@ body.portfolio{
 
 div.portfolio{
 	width: 950px;
-	height: 1000px;
 	margin: 0 auto;
 }
 
@@ -266,6 +273,34 @@ div.portfolio ul li{
 	height: 218px;
 	margin: 0 10px;
 }
+
+div.portfolio nav{
+	margin: 70px 0;
+}
+
+div.portfolio ul li{
+	float: left;
+	width: 227px;
+	height: 260px;
+	margin: 0 0 0 10px;
+}
+
+div.portfolio ul li a{
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	color: #0F2431;
+
+}
+
+div.portfolio ul li img{
+	padding: inherit;
+}
+
+div.portfolio ul li img:hover{
+	background: url(images/project/i-hover.png) no-repeat;
+}
+
 
 /*----------------------------------------Footer----------------------------------------*/
 
