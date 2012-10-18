@@ -491,7 +491,81 @@ div.portfolio ul li img:hover{
 /*---------------------------------------------------------------------------------------------------------
 	8.	Contact Page
 ---------------------------------------------------------------------------------------------------------*/
+div.contact{
+	width: 950px;
+	margin: 0 auto;
+}
 
+div.contact div.contact-header{
+	width: 950px;
+	height: 50px;
+	margin: 20px 0;
+	background: #0F2431;
+	border-radius: 2px;
+}
+
+div.contact div.contact-header h1{
+	color: #fff;
+	padding: 14px;
+}
+
+div.contact div.section{
+	height: 80px;
+	margin: 60px 0 0 0;
+}
+
+div.contact div.section p{
+	color: #009933;
+	font-size: 16px;
+}
+
+div.contact div.maininformation{
+	width: 700px !important;
+	height: 50px;
+	margin: 20px 0 0 0;
+}
+
+div.contact div.main{
+	height: 120px;
+	margin: 10px 0 0 0;
+	/*outline: 1px dashed red;*/
+}
+
+div.contact div.main div.left,
+div.contact div.main div.center{
+	float: left;
+	width: 350px;
+	height: 120px;
+	/*outline: 1px dashed red;*/
+}
+div.contact div.main div.right{
+	float: right;
+	width: 250px;
+	height: 120px;
+	/*outline: 1px dashed red;*/
+}
+
+div.contact div.maininformation span.right{
+	float: right;
+	font-size: 12px;
+	color: gray;
+}
+
+div.contact div.maininformation span.right p{
+
+}
+div.contact div.maininformation span.left{
+	font-size: 16px;
+}
+
+div.contact div.main form.main input{
+}
+
+div.contact div.addinformation{
+	width: 700px !important;
+	height: 50px;
+	margin: 20px 0 0 0;
+}
 
 /*---------------------------------------------------------------------------------------------------------
 	9.	Footer
