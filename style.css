@@ -37,6 +37,10 @@ div.line{
 	border-top: 1px solid #663300;
 }
 
+body.continer{
+	background: url('images/header/continer.jpg') repeat-x;
+}
+
 .cover{*zoom:1;}
 .cover:before,.cover:after{content:" ";display:table}
 .cover:after{clear:both}
@@ -241,9 +245,6 @@ div.home section.content div.homepage-news{
 }
 /*----------------------------------------Portfolio Page----------------------------------------*/
 
-body.continer{
-	background: url('images/header/continer.jpg') repeat-x;
-}
 
 div.portfolio{
 	width: 950px;
@@ -301,7 +302,26 @@ div.portfolio ul li img:hover{
 	background: url(images/project/i-hover.png) no-repeat;
 }
 
+/*----------------------------------------services Page----------------------------------------*/
 
+div.services{
+	width: 950px;
+	margin: 0 auto;
+}
+
+div.services div.services-header{
+	width: 950px;
+	height: 50px;
+	margin: 20px 0;
+	background: #0F2431;
+	border-radius: 2px;
+}
+
+div.services div.services-header h1{
+	display: block;
+	color: #fff;
+	padding: 14px;
+}
 /*----------------------------------------Footer----------------------------------------*/
 
 footer{
