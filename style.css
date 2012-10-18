@@ -257,6 +257,16 @@ div.portfolio div.portfolio-header h1{
 	padding: 14px;
 }
 
+div.portfolio ul li{
+	float: left;
+}
+
+div.portfolio ul li{
+	width: 200px;
+	height: 218px;
+	margin: 0 10px;
+}
+
 /*----------------------------------------Footer----------------------------------------*/
 
 footer{
