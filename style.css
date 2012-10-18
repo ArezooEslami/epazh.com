@@ -241,8 +241,8 @@ div.home section.content div.homepage-news{
 }
 /*----------------------------------------Portfolio Page----------------------------------------*/
 
-body.portfolio{
-	background: url('images/header/portfolio-bg.jpg') repeat-x;
+body.continer{
+	background: url('images/header/continer.jpg') repeat-x;
 }
 
 div.portfolio{
