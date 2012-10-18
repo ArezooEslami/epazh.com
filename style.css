@@ -94,6 +94,7 @@ body.homepage{
 /*----------------------------------------Home page / Slider----------------------------------------*/
 
 div.home section.slider{
+	position: relative;
 	width: 950px;
 	margin: 0 auto 160px auto;
 
@@ -105,7 +106,7 @@ div.home section.slider div.banner{
 
 div.home section.slider div.title{
 	width: 300px;
-	height: 360px;
+	height: 280px;
 	padding: 100px 0 0 100px;
 }
 
@@ -133,6 +134,7 @@ div.home section.slider div.title div.nav:hover{
 
 div.home section.slider section.link{
 	position: absolute;
+	top:370px;
 	width: 974px;
 	margin: 10px auto;
 }
@@ -243,15 +245,16 @@ div.home section.content div.homepage-news{
 	float: right;
 	width: 460px;
 }
-/*----------------------------------------Portfolio Page----------------------------------------*/
 
+/*----------------------------------------About US Page----------------------------------------*/
 
-div.portfolio{
+div.about-us{
 	width: 950px;
 	margin: 0 auto;
+	position: relative;
 }
 
-div.portfolio div.portfolio-header{
+div.about-us div.about-us-header{
 	width: 950px;
 	height: 50px;
 	margin: 20px 0;
@@ -259,47 +262,43 @@ div.portfolio div.portfolio-header{
 	border-radius: 2px;
 }
 
-div.portfolio div.portfolio-header h1{
+div.about-us div.about-us-header h1{
 	display: block;
 	color: #fff;
 	padding: 14px;
 }
 
-div.portfolio ul li{
+div.about-us div.about-us-text{
 	float: left;
+	width: 950px;
+	background: #0F2431;
+	border-radius: 2px;
+	padding: 10px 0 0 0;
 }
 
-div.portfolio ul li{
-	width: 200px;
-	height: 218px;
-	margin: 0 10px;
+div.about-us div.about-us-text h2{
+	color: #cccccc;
+	font-size: 24px;
+	margin: 20px;
 }
 
-div.portfolio nav{
-	margin: 70px 0;
+div.about-us div.about-us-text p{
+	color: #cccccc;
+	margin: 15px;
 }
 
-div.portfolio ul li{
+div.about-us div.about-us-image{
+	width: 950px;
+	height: 290px;
+	padding: 0 0 300px 0;
+}
+
+div.about-us div.about-us-image div{
 	float: left;
-	width: 227px;
-	height: 260px;
-	margin: 0 0 0 10px;
-}
-
-div.portfolio ul li a{
-	padding: 10px;
-	display: block;
-	text-decoration: none;
-	color: #0F2431;
-
-}
-
-div.portfolio ul li img{
-	padding: inherit;
-}
-
-div.portfolio ul li img:hover{
-	background: url(images/project/i-hover.png) no-repeat;
+	width: 110px;
+	height: 290px;
+	border: 4px solid #ff9900;
+	margin: 20px;
 }
 
 /*----------------------------------------services Page----------------------------------------*/
@@ -412,15 +411,15 @@ div.services div.services-bg div.services-6:hover{
 	left: 258px;
 }
 
-/*----------------------------------------About US Page----------------------------------------*/
+/*----------------------------------------Portfolio Page----------------------------------------*/
 
-div.about-us{
+
+div.portfolio{
 	width: 950px;
 	margin: 0 auto;
-	position: relative;
 }
 
-div.about-us div.about-us-header{
+div.portfolio div.portfolio-header{
 	width: 950px;
 	height: 50px;
 	margin: 20px 0;
@@ -428,44 +427,49 @@ div.about-us div.about-us-header{
 	border-radius: 2px;
 }
 
-div.about-us div.about-us-header h1{
+div.portfolio div.portfolio-header h1{
 	display: block;
 	color: #fff;
 	padding: 14px;
 }
 
-div.about-us div.about-us-text{
+div.portfolio ul li{
 	float: left;
-	width: 950px;
-	background: #0F2431;
-	border-radius: 2px;
-	padding: 10px 0 0 0;
 }
 
-div.about-us div.about-us-text h2{
-	color: #cccccc;
-	font-size: 24px;
-	margin: 20px;
+div.portfolio ul li{
+	width: 200px;
+	height: 218px;
+	margin: 0 10px;
 }
 
-div.about-us div.about-us-text p{
-	color: #cccccc;
-	margin: 15px;
+div.portfolio nav{
+	margin: 70px 0;
 }
 
-div.about-us div.about-us-image{
-	width: 950px;
-	height: 290px;
-	padding: 0 0 300px 0;
-}
-
-div.about-us div.about-us-image div{
+div.portfolio ul li{
 	float: left;
-	width: 110px;
-	height: 290px;
-	border: 4px solid #ff9900;
-	margin: 20px;
+	width: 227px;
+	height: 260px;
+	margin: 0 0 0 10px;
 }
+
+div.portfolio ul li a{
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	color: #0F2431;
+
+}
+
+div.portfolio ul li img{
+	padding: inherit;
+}
+
+div.portfolio ul li img:hover{
+	background: url(images/project/i-hover.png) no-repeat;
+}
+
 /*----------------------------------------Footer----------------------------------------*/
 
 footer{
