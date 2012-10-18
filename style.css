@@ -307,6 +307,7 @@ div.portfolio ul li img:hover{
 div.services{
 	width: 950px;
 	margin: 0 auto;
+	position: relative;
 }
 
 div.services div.services-header{
@@ -322,6 +323,96 @@ div.services div.services-header h1{
 	color: #fff;
 	padding: 14px;
 }
+
+div.services div.services-bg{
+	position: absolute;
+	width: 950px;
+	height: 600px;
+	top:100px;
+	left:175px;
+	right: 175px;
+	bottom: 300px;
+	background: url('images/services/bg.png') no-repeat;
+}
+
+div.services div.services-bg div a{
+	display: block;
+	text-decoration: none;
+}
+
+div.services div.services-bg div.services-1{
+	position: absolute;
+	top: 0;
+	left:150px;
+	width: 200px;
+	text-align: right;
+}
+
+div.services div.services-bg div.services-1:hover{
+	left:148px;
+}
+
+div.services div.services-bg div.services-2{
+	position: absolute;
+	top: 290px;
+	left: -210px;
+	width: 200px;
+	text-align: right;
+}
+
+div.services div.services-bg div.services-2:hover{
+	left: -212px;
+}
+
+div.services div.services-bg div.services-3{
+	position: absolute;
+	top: 125px;
+	left: -125px;
+	width: 200px;
+	text-align: right;
+}
+
+div.services div.services-bg div.services-3:hover{
+	left:-127px;
+}
+
+div.services div.services-bg div.services-4{
+	position: absolute;
+	top: 270px;
+	left: 590px;
+	width: 200px;
+	text-align: left;
+}
+
+div.services div.services-bg div.services-4:hover{
+	left: 592px;
+}
+
+div.services div.services-bg div.services-5{
+	position: absolute;
+	top: 70px;
+	left:512px;
+	width: 200px;
+	text-align: left;
+}
+
+div.services div.services-bg div.services-5:hover{
+	left: 514px;
+}
+
+div.services div.services-bg div.services-6{
+	position: absolute;
+	top: 460px;
+	left:260px;
+	width: 200px;
+	text-align: right;
+}
+
+div.services div.services-bg div.services-6:hover{
+	left: 258px;
+}
+
+
 /*----------------------------------------Footer----------------------------------------*/
 
 footer{
