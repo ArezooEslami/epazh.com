@@ -201,6 +201,8 @@ div.home section.slider section.link div.link-4:hover{
 
 div.home section.slider section.link a{
 	display        : block;
+	width          : inherit;
+	height         : inherit;
 	font-family    : Tahoma;
 	font-size      : 18px;
 	text-decoration: none;
